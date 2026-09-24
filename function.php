@@ -25,12 +25,20 @@
 // echo $buah[2];
 // echo $buah[6];
 
+// $mahasiswa = [
+//     "nama" => "Aditya",
+//     "umur" => 24,
+//     "Hobi" => "Main game",
+//     "Warna kesukaan" => "Biru"
+// ];
+
+// echo $mahasiswa["Hobi"];
+
 $mahasiswa = [
-    "nama" => "Aditya",
-    "umur" => 24,
-    "Hobi" => "Main game",
-    "Warna kesukaan" => "Biru"
+    ["Aditya", 24, "Informatika"],
+    ["Fakhri", 25, "Teknik Sipil"],
+    ["Riansyah", 26, "Bisnis"]
 ];
 
-echo $mahasiswa["Hobi"];
+echo $mahasiswa[1][0];
 ?>
