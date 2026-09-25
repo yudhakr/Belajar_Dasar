@@ -6,7 +6,7 @@ $nama = $_GET['nama'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LLatihan</title>
 </head>
 <body>
     <h1>Welcome <?php echo $nama; ?>!</h1> <br><br>
