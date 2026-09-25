@@ -1,3 +1,6 @@
+<?php
+$nama = $_GET['nama'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +9,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="process.php" method="post">
+    <h1>Welcome <?php echo $nama; ?>!</h1> <br><br>
+    <h2>Formulir Kontak</h2>
+    <!-- <form action="process.php" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
 
@@ -22,6 +27,6 @@
         <input type="radio" name="Bahasa" value="French"> French
 
         <input type="file" name="subscribe" value="yes"> Masukkan file<br><br>
-    </form>
+    </form> -->
 </body>
 </html>
