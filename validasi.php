@@ -13,5 +13,19 @@
         <input type="text" name="alamat" placeholder="alamat">
         <input type="submit">
     </form> 
+
+    <?php
+    if(isset($_POST['nama']) && isset($_POST['alamat'])) {
+        $nama = $_POST['nama'];
+        $alamat = $_POST['alamat'];
+
+        if(empty($nama) || empty($alamat)) {
+            echo "Nama dan alamat harus diisi!";
+        } else {
+            echo "Nama: " . htmlspecialchars($nama) . "<br>";
+            echo "Alamat: " . htmlspecialchars($alamat);
+        }
+    }
+    ?>
 </body>
 </html>
