@@ -1,5 +1,5 @@
 <?php
-$ukuran = "XL";
+$ukuran = "L";
 $warnanya = "merah";
 $harga = 100000;
 
@@ -8,6 +8,6 @@ if($ukuran == "XL" && $warnanya == "merah" ){
     $total_harga = $harga + $biaya_tambahan;
     echo "Total harga baju: " . $total_harga;
 } else {
-    echo "Baju yang anda pilih tidak tersedia";
+    echo "Biaya yang dikeluarkan adalah: " . $harga;
 }
 ?>
